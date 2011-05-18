@@ -14,12 +14,12 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>com.jayway.android.robotium</groupId>
-            <artifactId>robotium-solo</artifactId>
-            <version>2.3</version>
-            <scope>compile</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.jayway.android.robotium</groupId>-->
+            <!--<artifactId>robotium-solo</artifactId>-->
+            <!--<version>2.3</version>-->
+            <!--<scope>compile</scope>-->
+        <!--</dependency>-->
 
         <dependency>
             <!-- the target apk, which we will test. will automatically be deployed to device in pre-integration-test
