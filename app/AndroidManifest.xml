@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="com.example.android"
-          android:versionName="${project.version}"
-          android:versionCode="${buildNumber}">
-    <!--suppress AndroidDomInspection -->
+          package="com.example.android">
     <application
             android:debuggable="true"
             android:name="ExampleApplication"
