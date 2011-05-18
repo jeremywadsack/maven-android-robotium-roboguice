@@ -3,3 +3,5 @@
 *.iws
 .idea
 target/
+bin/
+gen/

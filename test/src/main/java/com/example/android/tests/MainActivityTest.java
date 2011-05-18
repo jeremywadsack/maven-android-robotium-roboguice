@@ -1,6 +1,7 @@
 package com.example.android.tests;
 
 import android.test.ActivityInstrumentationTestCase2;
+import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.SmallTest;
 import com.jayway.android.robotium.solo.Solo;
 import com.example.android.MainActivity;
@@ -46,6 +47,12 @@ public class MainActivityTest extends ActivityInstrumentationTestCase2<MainActiv
         solo.assertCurrentActivity("Current activity is not main.", MainActivity.class);
     }
 
+    @MediumTest
+    public void test_shouldUpdateTextOnButtonPress() {
+        solo.enterText(0, "SAMPLE");
+        solo.clickOnButton(0);
+        solo.searchText("Hello, SAMPLE");
+    }
 
 
 }
